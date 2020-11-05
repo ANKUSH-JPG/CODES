@@ -1,0 +1,127 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+h1{font:bold 20px tahoma}
+h2{font:bold 10px tahoma}
+
+header,section,nav,article,footer,hgroup{
+	display:block;
+}
+body{
+	
+	width:100%;
+	
+}
+.first{
+	position:fixed;
+}
+#first_banner{
+	
+	border:1px solid black;
+	background:blue;
+	height:60px;
+	width:1550px;
+	
+}
+#wtdo{
+	position:absolute;
+	color:white;
+	top:20%;
+	left:2%;
+}
+#help{
+	position:absolute;
+	color:white;
+	top:20%;
+	left:85%;
+}
+#help:hover{
+	color:red;
+}
+#logout{
+	position:absolute;
+	color:white;
+	top:20%;
+	left:90%;
+	
+}
+#logout:hover{
+	color:red;
+}
+#search_bar{
+	position:relative;
+	top:20%;
+	left:30%;
+	
+}
+#search_bar input[type=text]
+{
+	width:500px;
+height:30px;
+}
+/* The side navigation menu */
+.sidebar {
+  top:8%;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.text_written{
+	position:absolute;
+	top:8%;
+	color:blue;
+	left:15%;
+	 height: 90%;
+	 width:100%;
+}
+.content{
+	position:absolute;
+	
+}

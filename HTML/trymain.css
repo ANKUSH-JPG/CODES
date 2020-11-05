@@ -1,0 +1,44 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{font:bold 20px Tahoma;}
+
+header,section,footer,nav,article,hgroup{
+	
+	display:block;
+}
+
+body{
+	
+	width:20%;
+	height:10%;
+	display:-webkit-box;
+	text-align:center;
+}
+
+#first{
+	
+	-webkit-box-orient:verical;
+	-webkit-box-flex:1;
+	float:center;
+	max-width:100px 0px;
+	border:2px solid black;
+	background:orange;
+	outline:7px solid red;
+	-webkit-border-radius:25px;
+	-webkit-transform:rotate(180deg);
+	-webkit-transition:-webkit-transform 1s;
+
+	
+}
+
+#first:hover{
+	
+		-webkit-transform:rotate(30deg) scale(1)
+}
+#text{
+	
+	text-align:center;
+}
